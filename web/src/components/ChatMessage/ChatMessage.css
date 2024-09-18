@@ -1,0 +1,30 @@
+.chat-message {
+  background-color: #353541; /* Cor de fundo padrão */
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  max-width: 70%; /* Ajuste conforme necessário */
+  display: inline-block; /* Para que o fundo se ajuste ao tamanho do texto */
+  word-break: break-word; /* Para evitar overflow do texto */
+}
+
+.chat-message.chatgpt {
+  background-color: #444654; /* Cor de fundo para mensagens do GPT */
+}
+
+.chat-message-center {
+  display: flex;
+  align-items: flex-start; /* Alinha o texto no topo */
+}
+
+.message {
+  display: inline; /* Para que a mensagem não ocupe a tela inteira */
+}
+
+.avatar {
+  margin-right: 10px; /* Espaço entre o avatar e a mensagem */
+}
+
+.avatar.chatgpt {
+  background: #0da37f; /* Cor do avatar para mensagens do GPT */
+}
